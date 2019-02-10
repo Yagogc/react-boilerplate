@@ -17,11 +17,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        parser: 'babel-eslint',
         exclude: /node_modules/,
-        options: {
-          presets: ['@babel/preset-env'],
-        },
       },
     ],
   },
